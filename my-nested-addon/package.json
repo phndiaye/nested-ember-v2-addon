@@ -56,7 +56,10 @@
     "version": 2,
     "type": "addon",
     "main": "addon-main.cjs",
-    "app-js": {}
+    "app-js": {
+      "./components/foobar.js": "./dist/_app_/components/foobar.js",
+      "./models/user.js": "./dist/_app_/models/user.js"
+    }
   },
   "exports": {
     ".": "./dist/index.js",
